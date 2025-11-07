@@ -9,9 +9,9 @@ function compareValues() {
     let value1 = Number(input1.value);
 
     if (value1 > value2) {
-        result.textContent = `Input 1 ${value1} is greater than Input 2 ${value2}.`;
+        result.innerText = `Input 1 ${value1} is greater than Input 2 ${value2}.`;
     } else if (value1 < value2) {
-        result.textContent = `Input 1 ${value1} is less than Input 2 ${value2}.`;
+        result.innerText = `Input 1 ${value1} is less than Input 2 ${value2}.`;
     } else {
         result.innerText = "Both inputs are equal.";
     }
